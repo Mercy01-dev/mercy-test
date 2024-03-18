@@ -1,0 +1,73 @@
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+container {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  flex-direction: left;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-user-button {
+  position: absolute;
+  bottom: 80px;
+  right: 810px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-bar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin: 6px 8px;
+  cursor: pointer;
+  height: 20px;
+}
+.search-icon {
+  position: absolute;
+  top: 57px;
+  right: 35px;
+
+  border-radius: 4px;
+  margin: 6px 8px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.userdetails {
+  font-size: 180px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hidden {
+  color: green;
+  margin-left: 600px;
+}

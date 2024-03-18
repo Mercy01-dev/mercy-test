@@ -1,0 +1,57 @@
+<div class="container">
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-md-offset-3">
+      <form [formGroup]="userDataForm">
+        <div class="search-bar">
+          <input type="text" placeholder="search here" class="search-bar" />
+          <span type="submit">
+            <mat-icon fontIcon="search" class="search-icon">search</mat-icon>
+          </span>
+        </div>
+        <div class="userdetails"><h2>Register User</h2></div>
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <div class="form-control">
+            <input id="name" type="text" formControlName="Name" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <div class="form-control">
+            <input id="email" type="text" formControlName="email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="contact">Contact</label>
+          <div class="form-control">
+            <input id="contact" type="text" formControlName="contact" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="actions">Password</label>
+          <div class="form-control">
+            <input id="password" type="text" formControlName="password" />
+          </div>
+        </div>
+      </form>
+      <div class="button-container">
+        <button
+          class="add-user-button"
+          type="submit"
+          (click)="onStoreValues(); this.userDataForm.reset()"
+        >
+          Register User
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

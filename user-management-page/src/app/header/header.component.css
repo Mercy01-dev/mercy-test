@@ -1,0 +1,23 @@
+* {
+  background-color: rgb(255 6 19);
+  height: 80px;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 300px;
+  font-weight: 700;
+}
+.header {
+  font-weight: 700;
+  font-size: 40px;
+}
+.addUser {
+  background-color: rgb(255 6 19);
+  height: 20px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+}
+.table {
+  background-color: white;
+}
